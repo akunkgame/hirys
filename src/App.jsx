@@ -252,7 +252,7 @@ export default function App() {
       <BouncingLogos />
       {err && <div style={errorBox}><b>Error:</b> {err}</div>}
 
-      <footer style={{ padding: "20px 16px", textAlign: "center", opacity: 0.6, fontSize: 14 }}>
+      <footer style={{ padding: "20px 16px", textAlign: "center", opacity: 0.6, fontSize: 14, fontFamily: "'Mona Sans', sans-serif" }}>
         <p>
           Made with love for Irys Community, by{" "}
           <a href="https://x.com/oxkagee" target="_blank" rel="noreferrer" style={link} className="link">
@@ -336,7 +336,8 @@ const heroTitle = {
 const heroSub = {
   marginTop: 8,
   textAlign: "center",
-  opacity: 0.8
+  opacity: 0.8,
+  fontFamily: "'Mona Sans', sans-serif"
 };
 
 const mainWrap = {
